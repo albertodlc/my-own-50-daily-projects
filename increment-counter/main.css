@@ -1,0 +1,44 @@
+* {  
+	margin: 0;  
+	padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    background: #000000e0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+    height: 100vh;
+}
+
+.container > .followers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    color: aliceblue;
+}
+
+.container > .followers-container > .logo {
+    font-size: 50px;
+}
+
+.container > .followers-container > .counter{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.container > .followers-container > .description{
+    font-size: 17px;
+    font-family: 'Oxygen', sans-serif;
+}
