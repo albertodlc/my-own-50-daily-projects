@@ -5,25 +5,66 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>50 daily Challenge</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/header.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/website-card.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>50 Daily Challenge</h1>
+    </header>
+    <main class="container">
         <div class="websites-wrapper">
-            <div class="website">
+            <a href="increment-counter/increment-counter" target="_blank" class="website-wrapper">
                 <img src="images/increment-counter.png" alt="Increment Counter Website">
-                <span class="description">Display your social media followers in a cool way!</span>
-                <a href="increment-counter/increment-counter" target="_blank">Link</a>
-            </div>
-            <div class="website">                
+                <div class="website-detail">
+                    <span class="website-title">Social Media Counter</span>
+                    <p class="description">Display your social media followers in a cool way!</p>
+                    <span class="website-tags-section non-active-section">
+                        <div class="tags">
+                            <span class="tag html-logo-color">HTML5</span>
+                            <span class="tag css-logo-color">CSS3</span>
+                            <span class="tag js-logo-color">JavaScript</span>
+                        </div>
+                    </span>
+                </div>
+            </a>
+
+            <a href="split-landing-page/split-landing-page" target="_blank" class="website-wrapper">
                 <img src="images/split-screen.png" alt="Split Landing Page">
-                <span class="description">Showcase your products with style!</span>
-                <a href="split-landing-page/index" target="_blank">Link</a>
-            </div>
+                <div class="website-detail">
+                    <span class="website-title">Split Landing Page</span>
+                    <p class="description">Showcase your products with style!</p>
+                    <span class="website-tags-section non-active-section">
+                        <div class="tags">
+                            <span class="tag html-logo-color">HTML5</span>
+                            <span class="tag css-logo-color">CSS3</span>
+                            <span class="tag js-logo-color">JavaScript</span>
+                        </div>
+                    </span>
+                </div>
+            </a>
+
+            <a href="progress-steps/progress-steps" target="_blank" class="website-wrapper">
+                <img src="images/progress-steps.png" alt="Progress Step Page">
+                <div class="website-detail">
+                    <span class="website-title">Progress Steps</span>
+                    <p class="description">Display a form's step-by-step page</p>
+                    <span class="website-tags-section non-active-section">
+                        <div class="tags">
+                            <span class="tag html-logo-color">HTML5</span>
+                            <span class="tag css-logo-color">CSS3</span>
+                            <span class="tag js-logo-color">JavaScript</span>
+                        </div>
+                    </span>
+                </div>
+            </a>
 
         </div>
-    </div>
+    </main>
+    <script src='main.js'></script>
 </body>
 </html>

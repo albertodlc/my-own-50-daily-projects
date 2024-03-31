@@ -1,0 +1,79 @@
+.website-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.website-wrapper img {
+    width: 100%;
+    height: 100%; 
+
+    object-fit: cover;
+    border-radius: 17px;
+    box-shadow: #9D958F 0px 8px 24px;
+}
+
+.website-wrapper > .website-detail {  
+    width: 98.5%;
+    position: absolute;
+    background-color: #FCFCFA;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    border-left: 3px solid #FBD6A2;
+    border-top: 3px solid #FBD6A2;
+    border-radius: 10px;
+    left: 5px;
+
+    padding: 10px;
+}
+
+.website-wrapper > .website-detail > .website-title {    
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.website-wrapper > .website-detail > .description {    
+    font-size: 14px;
+    color: gray;
+}
+
+.non-active-section {
+    display: none;
+}
+
+.website-wrapper > .website-detail > .website-tags-section > .tags {   
+    display: flex;
+    gap: 7px;
+}
+
+.tag {
+    font-size: 12px;
+    border: 4px black;
+    border-radius: 7px;
+
+    padding: 7px;
+
+    color: aliceblue;
+}
+
+.css-logo-color {
+    background-color:  #264de4;
+}
+
+.js-logo-color {
+    background-color: #F0DB4F;
+}
+
+.html-logo-color {
+    background-color: #F16529;
+}
