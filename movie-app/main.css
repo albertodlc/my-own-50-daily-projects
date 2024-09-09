@@ -1,0 +1,33 @@
+/* Default Global Styles */
+:root {
+    --primary-color:#22254b;
+    --secondary-color:#373b69;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+    width: 100%; 
+    height: 75px; 
+    background-color: var(--secondary-color);
+}
+
+.movies-wrapper {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 17px;
+
+    gap: 30px;
+}
+

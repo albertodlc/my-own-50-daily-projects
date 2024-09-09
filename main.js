@@ -31,7 +31,6 @@ class ProjectCard extends HTMLElement{
 
                 overflow: hidden;
                 transition: transform 0.3s ease-in-out;
-
             }
 
             .card .website-detail{
