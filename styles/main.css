@@ -6,7 +6,9 @@
 
 body {
     background: #EEECE8;
-    font-family: "Roboto", sans-serif;    
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container {
@@ -14,9 +16,9 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: calc(100vh - 65px);
-
     flex-direction: column;
+
+    padding: 100px;
 }
 
 .container > .websites-wrapper {
