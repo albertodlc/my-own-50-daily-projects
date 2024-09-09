@@ -1,0 +1,12 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6; /* Improve readability */
+    color: white;
+}
+
+body {
+    background-color: #2a2a72;
+}
